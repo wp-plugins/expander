@@ -10,7 +10,9 @@ Stable tag: 0.1.1
 
 Text expander plugin. Just like popcorn. Click and pop.
 
-Use it to toggle (show/hide) blocks of text, by inserting the `[wpex Read more]hidden text[/wpex]` shortcode.
+Use it to toggle (show/hide) blocks of text, by inserting a simple shortcode:
+
+`[wpex Read more]hidden text[/wpex]`
 
 Replace "Read more" with your desired text (call to action).
 
