@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Expander
-Version: 0.1.1
-Plugin URI: http://getbutterfly.com/
+Version: 0.1.1.2
+Plugin URI: http://getbutterfly.com/wordpress-plugins/wordpress-expander/
 Description: Text expander plugin. Just like popcorn. Click and pop.
 Author: Ciprian Popescu
 Author URI: http://getbutterfly.com/

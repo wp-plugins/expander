@@ -3,8 +3,8 @@ Contributors: butterflymedia, getbutterfly
 Tags: javascript, expand, expander, toggle, show, hide
 License: GPLv3
 Requires at least: 3.0
-Tested up to: 3.6-beta1
-Stable tag: 0.1.1
+Tested up to: 3.8-beta-1
+Stable tag: 0.1.1.2
 
 == Description ==
 
@@ -24,5 +24,8 @@ Replace "Read more" with your desired text (call to action).
 
 == Changelog ==
 
-= 0.1.1 =
+= 0.1.1.2 =
+* Checked WordPress 3.8-beta compatibility
+
+= 0.1.1.1 =
 * First public release
