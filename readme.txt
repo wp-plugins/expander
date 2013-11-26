@@ -4,7 +4,7 @@ Tags: javascript, expand, expander, toggle, show, hide
 License: GPLv3
 Requires at least: 3.5
 Tested up to: 3.8-beta-1
-Stable tag: 0.2
+Stable tag: 0.2.1
 
 == Description ==
 
@@ -24,6 +24,10 @@ Replace "Read more" and "Read less" with your desired text. Use ".wpex-link" cla
 4. If you upgraded from 0.1.x change your `[wpex Read more]` to `[wpex more="Read more" less="Read less"]`
 
 == Changelog ==
+
+= 0.2.1 =
+* FIX: Fixed wpautop() issue
+* FEATURE: Added internal version
 
 = 0.2 =
 * FEATURE: Added "Read more"/"Read less" feature

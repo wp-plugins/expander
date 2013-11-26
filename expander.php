@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Expander
-Version: 0.2
+Version: 0.2.1
 Plugin URI: http://getbutterfly.com/wordpress-plugins/wordpress-expander/
 Description: Text expander plugin. Just like popcorn. Click and pop.
 Author: Ciprian Popescu
@@ -29,7 +29,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 define('WPEX_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname(plugin_basename(__FILE__)));
 define('WPEX_PLUGIN_PATH', WP_PLUGIN_DIR . '/' . dirname(plugin_basename(__FILE__)));
-define('WPEX_VERSION', '0.2');
+define('WPEX_VERSION', '0.2.1');
 
 function wpex_register_shortcodes() {
    add_shortcode('wpex', 'wpex_main');
@@ -45,7 +45,7 @@ function wpex_main($atts, $content = null) {
 	$rnum = mt_rand();
 
 	$new_string = '<a onclick="wpex_toggle(' . $rnum . ', \'' . $more . '\', \'' . $less . '\'); return false;" class="wpex-link" id="wpexlink' . $rnum . '" href="#">' . $more . '</a>' . "\n";
-	$new_string .= '<p class="wpex_div" id="wpex' . $rnum . '" style="display: none;">' . $content . '</p>';
+	$new_string .= '<div class="wpex_div" id="wpex' . $rnum . '" style="display: none;">' . $content . '</div>';
 
 	return wpautop($new_string);
 }
