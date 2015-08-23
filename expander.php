@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: Expander
-Version: 0.2.4
+Version: 0.2.5
 Plugin URI: http://getbutterfly.com/wordpress-plugins/wordpress-expander/
 Description: Text expander plugin. Just like popcorn. Click and pop.
 Author: Ciprian Popescu
 Author URI: http://getbutterfly.com/
 
-Copyright 2012, 2013 Ciprian Popescu (email: getbutterfly@gmail.com)
+Copyright 2012, 2013, 2014, 2015 Ciprian Popescu (email: getbutterfly@gmail.com)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,7 +29,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 define('WPEX_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname(plugin_basename(__FILE__)));
 define('WPEX_PLUGIN_PATH', WP_PLUGIN_DIR . '/' . dirname(plugin_basename(__FILE__)));
-define('WPEX_VERSION', '0.2.4');
+define('WPEX_VERSION', '0.2.5');
 
 function wpex_register_shortcodes() {
    add_shortcode('wpex', 'wpex_main');

@@ -2,9 +2,9 @@
 Contributors: butterflymedia, getbutterfly
 Donate link: http://getbutterfly.com/wordpress-plugins-free/
 Tags: javascript, jquery, expand, expander, toggle, show, hide
-Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 0.2.4
+Requires at least: 4.0
+Tested up to: 4.3
+Stable tag: 0.2.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,6 +26,9 @@ Replace "Read more" and "Read less" with your desired text. Use ".wpex-link" cla
 4. If you upgraded from 0.1.x change your `[wpex Read more]` to `[wpex more="Read more" less="Read less"]`
 
 == Changelog ==
+
+= 0.2.5 =
+* UPDATE: Updated WordPress compatibility
 
 = 0.2.4 =
 * GENERAL: Added license link
